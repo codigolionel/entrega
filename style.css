@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background: linear-gradient(to left,#000000, #676768, black,  #6e7175,#000000);
+    
+}
+
+
+nav{
+    width: 400px;
+    border-radius: 50px;
+    background-color: black;
+    color: rgb(254, 246, 183);
+    position: fixed;
+    z-index: 1;
+    text-align: center;  
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aqua;
+  }
+
+#menu li{
+    display:inline-block;
+    margin-inline-end: 20px;
+    transition: all 1s ease-out;
+    text-decoration: none;    
+        
+}
+
+#menu :hover{
+    background-color: #cf8345;
+    transform: translateY(-5px);
+    transition: all 1s ease-out;     
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+       
+}
+ 
+
+h1{     
+    margin: 10px 0;
+    padding: 30px 0px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-style: normal;
+    color: aqua;
+    text-align: center;
+    font-size: 7em;
+    letter-spacing: 10px;   
+    transition: all 1s;
+    text-shadow: rgb(115, 0, 255) 3px 5px;
+ }
+    
+
+h1:hover{ 
+    color: greenyellow;
+    transition: all 1s;
+    text-shadow: rgb(255, 0, 0) 3px 5px; 
+}
+
+#nombre{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aqua;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    letter-spacing: 10px;
+    text-shadow: rgb(51, 1, 203) -4px -4px;
+}
+
+
+#yo{     
+    width: 300px;   
+    margin: 180px 0px 0px 0px;   
+    
+}
+
+
+#cubo{
+    background-color: rgb(0, 0, 0);
+    color: rgb(137, 135, 135);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;  
+    border: rgb(240, 240, 240) double 4px;
+    border-radius: 120px; 
+    margin: 0px 100px;
+    padding: 0px 50px;
+}
+
+section{
+    display: flex;
+    justify-content: center;      
+}
+
+.navecentro{
+    display: flex;
+    justify-content: center;
+}
+
+#nave{ 
+    width: 90px; 
+    height: 150px;
+}
+
+#tx1{
+    margin-top: 100px;     
+    text-shadow: rgb(0, 0, 0) -4px -4px;
+    text-shadow: rgb(234, 7, 79) -2px -2px;
+    color: aqua;
+    font-family: monospace, 'Lucida Sans Unicode', 'Lucida Grande'; 
+    letter-spacing: 14px;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+h3{
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: rgb(43, 0, 173) -2px -2px;
+
+}
+
+
+
+#p{
+    margin: 0;
+    color: black;
+    background-color:rgb(232, 25, 101);
+    border-radius: 35%;
+    text-align: center;
+   
+}
+
+.lenguajes{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-inline: 50px;
+    
+    
+    
+}
+
+.lenguajes :hover{ 
+    background-color: #ff0000;
+    transform: translateY(-5px);
+    transition: all 1s ease-out;
+}
+
+.txyellow{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 13, 13);
+    border-radius: 30px;
+    width: 180px;
+    height: 270px;
+    margin: 100px 0px;
+    box-shadow: rgb(115, 0, 255) 20px 5px 15px -13px;  
+    transition: all 1s ease-out;    
+    
+    
+}
+
+.txyellow>img{
+   margin-top: 50px;
+   width: 90px;
+   height: 90px;
+  
+}
+h3{
+    letter-spacing: 15px;
+}
+
+#push{   
+    margin: 100px;
+    color: aqua;
+    text-shadow: #000000 -2px -1px;
+    background: linear-gradient(to left,#cc0606, #000000, black,#ca0c0c);
+    text-align: center;
+    padding-block: 50px;
+    margin: 0 30px;
+}
+
+article{
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 140px;
+    background-color: rgb(29, 11, 51);  
+}
+
+#sectionimg{
+   margin-top: 30px;
+   width: 335px;
+   height: 380px;
+   text-align: center;
+   border-radius: 30px;
+      
+}
+
+
+
+.bloque{
+    
+     text-align: center;
+ }
+
+
+label{
+    color: rgb(101, 36, 3);
+
+}
+.parrafo{ 
+    color: rgb(47, 203, 255);
+    padding-inline: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+h2{
+        color: aqua;
+}
+
+#galaxy{
+    text-align: center;
+    position: relative;
+  
+    
+}
+
+#galaxy img#galaxy{
+    max-width: 100%;
+    
+}
+
+#galaxy #galaxytext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 34px;
+    letter-spacing: 5px;
+    border: white dotted 2px;
+    border-radius: 10px;
+    text-shadow: rgb(117, 49, 234) 1px 2px; 
+    text-shadow: rgb(229, 5, 173) -1px -2px; 
+}
+
+
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(234, 255, 204);
+}
+
+p{
+    color: rgb(0, 104, 104);
+}
+
+
+
+
+
+@media (max-width: 1017px) {
+    main{ text-align: center;
+
+    }
+.lenguajes {
+    width: 270px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr;    
+    
+   
+  }
+  .txyellow {
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 270px;
+    height: 100px;    
+ }
+
+    .txyellow>img{
+        margin-top: 0px;
+        
+       
+ 
+  }
